@@ -1,14 +1,14 @@
 @extends('layout.app')
 
 @section('title')
-    Pembeli
+    Member
 @endsection
 
 @section('content')
 <div class="card mt-3">
     <div class="card-header">
         <div class="card-title">
-            <h5><i class="fa-brands fa-cotton-bureau"></i>  Data Pembeli </h5>
+            <h5><i class="fa-brands fa-cotton-bureau"></i>  Data Member </h5>
 
             <button class="btn btn success bt-sm float-end" data-bs-toggle="modal" data-bs-target="#modalTambah"><i class="fa fa-plus"></i></button>
         </div>

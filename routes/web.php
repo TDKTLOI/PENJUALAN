@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('layout.app');
+    return view('home');
 });
 Route::get('/Barang', function () {
     return view('Barang.index');
@@ -14,8 +14,8 @@ Route::get('/Kategori', function () {
 Route::get('/Suplier', function () {
     return view('Suplier.index');
 });
-Route::get('/Pembeli', function () {
-    return view('Pembeli.index');
+Route::get('/Member', function () {
+    return view('Member.index');
 });
 Route::get('/Pembelian', function () {
     return view('Pembelian.index');

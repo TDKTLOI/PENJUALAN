@@ -17,7 +17,7 @@
           <a class="nav-link" href="/Suplier"><i class="fa-solid fa-anchor"></i> Suplier </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Pembeli"><i class="fa-brands fa-atlassian"></i> Pembeli </a>
+          <a class="nav-link" href="/Member"><i class="fa-brands fa-atlassian"></i> Member </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/Pembelian"><i class="fa-solid fa-chess-king"></i> Pembelian </a>
