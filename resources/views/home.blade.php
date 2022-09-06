@@ -1,24 +1,27 @@
-@extends('layout.app')
+@extends ('layout.app')
 
-@section('title')
-        Home
+@section ('title')
+    Home
 @endsection
 
-@section('content')
-<div class="container overflow-hidden text-center">
-  <div class="row gy-3">
-    <div class="col-6 text-light ">
-      <div class="p-3 border bg-primary rounded mt-4"> 10 Barang <i class="fa-solid fa-box"></i></div>
-    </div>
-    <div class="col-6 text-light ">
-      <div class="p-3 border bg-success rounded mt-4"> 15 Kategori <i class="fa-solid fa-tag"></i></div>
-    </div>
-    <div class="col-6 text-light ">
-      <div class="p-3 border bg-warning rounded "> 5 Suplier <i class="fa-solid fa-truck"></i></div>
-    </div>
-    <div class="col-6 text-light ">
-      <div class="p-3 border bg-danger rounded"> 100 Member <i class="fa-solid fa-user   "></i></div>
-    </div>
-  </div>
+@section ('content')
+    <div class="row g-10 text-center">
+        <div class="col-3">
+        <div class="p-3  bg-success mt-4">10 Barang  <i class="fa-solid fa-box"></i></div>
+        </div>
+
+        <div class="col-3">
+        <div class="p-3  bg-primary mt-4">15 kategori  <i class="fa-solid fa-tags"></i></div>
+        </div>
+
+        <div class="col-3">
+        <div class="p-3  bg-warning mt-4">50 Suplier  <i class="fa-solid fa-plane"></i></div>
+        </div>
+
+        <div class="col-3">
+        <div class="p-3 bg-danger mt-4">500 Pembeli  <i class="fa-solid fa-users"></i></div>
+        </div>
 </div>
+
+
 @endsection

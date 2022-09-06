@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('title')
-    Pembelian
+    pembeli
 @endsection
 
 @section('content')
@@ -9,7 +9,7 @@
     <div class="card-header">
         <div class="card-title">
 
-    <h5>Data Pembelian</h5>
+    <h5>Data Pembeli</h5>
 
         <button type="button" class="btn btn-success btn-sm float-end" data-bs-toggle='modal' data-bs-target='#modalTambah'><i class="fa fa-plus">
         </i></button>
@@ -22,10 +22,9 @@
   <thead>
     <tr>
         <th>Id</th>
-        <th>Tanggal</th>
-        <th>Jumlah</th>
-        <th>Harga</th>
-        <th>Barang</th>
+        <th>Nama</th>
+        <th>Telepon</th>
+        <th>Alamat</th>
         <th>Aksi</th>
     </tr>
 </div>
@@ -34,10 +33,9 @@
   <tbody>
     <tr>
         <td>1</td>
-        <td>22-08-2022</td>
-        <td>10</td>
-        <td>85.000</td>
-        <td>Kursi</td>
+        <td>Yaqin</td>
+        <td>081274893716</td>
+        <td>Pagerwojo</td>
         <td>
             <a href="#" class="btn btn-warning btn-sm"> <i class="fa fa-edit"></i>
             <a>
