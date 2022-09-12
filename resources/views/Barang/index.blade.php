@@ -39,12 +39,12 @@
         <td>{{$item->nama}}</td>
         <td>{{$item->harga}}</td>
         <td>{{$item->stok}}</td>
-        <td>{{$item->suplier_id}}</td>
-        <td>{{$item->kategori_id}}</td>
+        <td>{{$item->suplier->nama}}</td>
+        <td>{{$item->Kategori->nama}}</td>
         <td>
-            <a href="#" class="btn btn-warning btn-sm"> <i class="fa fa-edit"></i>
+            <a href="/barang/{{$item->id}}/edit" class="btn btn-warning btn-sm"> <i class="fa fa-edit"></i>
             <a>
-            <a href="#" class="btn btn-danger btn-sm"> <i class="fa fa-trash"></i>
+            <a href="/barang/{{$item->id}}/hapus" class="btn btn-danger btn-sm"> <i class="fa fa-trash"></i>
             <a>
         </td>
     </tr>

@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Barang;
 
 class suplier extends Model
 {
@@ -12,4 +13,8 @@ class suplier extends Model
     protected $table = 'suplier';
 
     protected $guarded = [];
+
+    public function barang(){
+        return $this->belongsToMany(Barang::class);
+    }
 }
